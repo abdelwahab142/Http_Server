@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1673721936 source:/home/kali/Desktop/http_server/main.cpp
+	"include/Include.h"
+	"include/Request_prepare.h"
+	"include/Socket.h"
+	"include/File_reader.h"
+
+1673721473 source:/home/kali/Desktop/http_server/src/Request_prepare.cpp
+	"Request_prepare.h"
+
+1673705122 /home/kali/Desktop/http_server/include/Request_prepare.h
+	"Include.h"
+
+1673722048 source:/home/kali/Desktop/http_server/src/Socket.cpp
+	"Socket.h"
+
+1673704081 /home/kali/Desktop/http_server/include/Socket.h
+	"Include.h"
+	"Request_prepare.h"
+	"File_reader.h"
+
+1673700388 /home/kali/Desktop/http_server/include/Include.h
+	<iostream>
+	<string.h>
+	<fstream>
+	<linux/limits.h>
+	<unistd.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+
+1673722048 source:/home/kali/Desktop/http_server/src/File_reader.cpp
+	"File_reader.h"
+
+1673704263 /home/kali/Desktop/http_server/include/File_reader.h
+	"Include.h"
+
