@@ -1,6 +1,6 @@
 #include "Socket.h"
 
-std::string str="HTTP/1.0 200 OK\r\nServer: SimpleHTTP/0.6 Python/3.9.8\r\nDate: Sat, 14 Jan 2023 13:45:11 GMT\r\nContent-type: text/html; charset=utf-8\nContent-Length: 1545\r\n\r\n\n";
+std::string str="HTTP/1.0 200 OK\r\nServer: Simple\http/1.0\r\nDate: Sat, 14 Jan 2023 13:45:11 GMT\r\nContent-type: text/html; charset=utf-8\nContent-Length: 1545\r\n\r\n\n";
 
 int getSO_ERROR(int fd) {
    int err = 1;
